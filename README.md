@@ -55,6 +55,7 @@ https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on
 
 - Avoid overwriting other people's contributions, adding spaces and tabs or making any other type of invalid pull requests. 
  (They will be marked invalid and won't be counted in your HacktoberFest goals.)
+ 
  ( PS- If you find any such requests, please report to me.)
 
 Idea for some other algorithms are :
