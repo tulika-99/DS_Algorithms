@@ -58,7 +58,7 @@ git push origin master
 
 - Create a new pull request from your forked repository
 - And you are one step closer!   
-Check out your progress at ```https://hacktoberfest.digitalocean.com/profile```
+Check out your progress at https://hacktoberfest.digitalocean.com/profile
 
 ## Links to help you out- 
 
