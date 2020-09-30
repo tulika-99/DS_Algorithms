@@ -29,10 +29,12 @@ You can either add
 ## Guidelines
 
 - Go Inside the Data Structure or Algorithm folder (if already created, else create one).
-- Create a  folder with the Algorithm Name. 
+- Go inside the  folder with the specific Algorithm Name. If not present then create a new folder with the name of the algorithm and add your files in it.
 - Create a .txt file with the Algorithm Theory/Explanation or a solution file which contains the code for the Algorithm, named acc to the language used to implement it. ( Eg: Inorder Traversal-C++ )
-- Add this file inside the folder with the name of the algorithm you have implemented. If not present then create a new folder with the name of the algorithm and add your files in it.
-- If you have some specific details u need to add according to the implementation in a specific language , add it as comments in the code, or create a sub-folder (Algo Name - language) and add the 
+- Add this file inside the folder with the name of the algorithm you have implemented.
+- If you have some specific details u need to add according to the implementation in a specific language, add it as comments in the code, or create a sub-folder (Algo Name - language) and add the text file and the code files.  
+(Can also be done in case the implementation in a language requires more than one file.)
+
 
 ## Steps
 
@@ -55,7 +57,8 @@ git push origin master
 ```
 
 - Create a new pull request from your forked repository
-- And you are one step closer! 
+- And you are one step closer!   
+Check out your progress at ```https://hacktoberfest.digitalocean.com/profile```
 
 ## Links to help you out- 
 
