@@ -2,38 +2,53 @@
 
 A collection of different types of algorithms used for various different Data Structures, in different languages.
 This repository is open to all. 
-To help you out with your Hacktoberfest goals!!.
+To help you out with your Hacktoberfest goals!!  
 All you need to do is just add any sorting algorithm of your choice in any language you like with only the condition that it hasn't already been added.
 
 
 ## Structure of the Repository
 
 - The Repository contains folders with names of Data Structures the Algorithms are based on, or the Name of the Algorithms if its valid for multiple data Structures.
-- Inside each folder there maybe subfolders for the Algorithms.
+- Inside each folder there maybe subfolders for the specific Algorithms.
 - Each Algorithm folder contains 
+-- A Text file or a readme.md file which contains the Theory/ Explanation of the Algorithm
+-- and Several other files containing the code for the same, for different languages.   
+These files MUST BE NAMED in the format Algorithm Name - language. ( Eg: Binary Search - C++ )
+
+
+## What can you contribute ?
+
+You can either add
+- The theory/explainations of the Algorithms   
+ ( Discuss the approach, Time and Space Complexities, Examples, etc. )   
+ (Please add references as well, if used)  
+
+- Code for the Algorithm in a language of your choice.
+
 
 ## Guidelines
 
 - Go Inside the Data Structure or Algorithm folder (if already created, else create one).
-- Create a  folder with the Algorithm Name. and language used to implement it. ( Eg: Insertion Sort-C++ )
-- Add a .txt file with the Algorithm Theory/Explanation and a solution file which contains the solution of the given problem.
-- Add this file inside the folder with the name of the algorithm you have implemented. If not present then create a new folder with the name of the algorithm and add your own folder to it.
-- You can also help maintain a single text file containing the detailed explanation of all the algorithms.
+- Go inside the  folder with the specific Algorithm Name. If not present then create a new folder with the name of the algorithm and add your files in it.
+- Create a .txt file with the Algorithm Theory/Explanation or a solution file which contains the code for the Algorithm, named acc to the language used to implement it. ( Eg: Inorder Traversal-C++ )
+- Add this file inside the folder with the name of the algorithm you have implemented.
+- If you have some specific details u need to add according to the implementation in a specific language, add it as comments in the code, or create a sub-folder (Algo Name - language) and add the text file and the code files.  
+(Can also be done in case the implementation in a language requires more than one file.)
+- A more organized and structured pull request has gretaer chances to be approved. (Cuz maintainers are Lazy AF)
 
-Since we restructured it,it does not contain a single file for the algorithm.
 
 ## Steps
 
 - Fork this repo (button on top)
 - Star this repo (button on top)
-- Clone on your local machine
+- Clone the repo on your local machine
 
 ```terminal
-git clone https://github.com/your-username/sorting-algorithms.git
+git clone https://github.com/your-username/DS_Algorithms.git
 ```
 
-- Create a new folder with the algorithm name and language.
-- Add your algorithm and solution file in that folder. 
+- Create a new folder with the algorithm name.
+- Add your Theory/ Explanation or Code file in that folder. ( Please keep in mind the naming of the files) (Algorithm Name - language) 
 - Commit and push
 
 ```terminal
@@ -43,21 +58,27 @@ git push origin master
 ```
 
 - Create a new pull request from your forked repository
-- And you are one step closer! 
+- And you are one step closer!   
+**Check out your progress at https://hacktoberfest.digitalocean.com/profile**
 
-## Links to help you out- 
+## Links to help you out
 
-[ How to add a file to GitHub Repo using Command Line ](https://help.github.com/en/articles/adding-a-file-to-a-repository-using-the-command-line)
+In case you find the steps given above as vague and unclear, feel free to look up these amazing articles  
+https://help.github.com/en/articles/adding-a-file-to-a-repository-using-the-command-line
 https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
 
 
 ## Note
 
-- Avoid overwriting other people's contributions, adding spaces and tabs or making any other type of invalid pull requests. 
+- Avoid overwriting other people's contributions, adding spaces and tabs or making any other type of invalid pull requests.   
  (They will be marked invalid and won't be counted in your HacktoberFest goals.)
  
  ( PS- If you find any such requests, please report to me.)
+- If you have any other doubts, feel free to discuss in the issue.
 
-Idea for some other algorithms are :
+Idea for some algorithms  :
 
-- Radix S
+- Searching Algorithms
+- Graph Algos
+- Tree Algos
+- Bit Manipulation
