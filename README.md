@@ -34,13 +34,14 @@ You can either add
 - Add this file inside the folder with the name of the algorithm you have implemented.
 - If you have some specific details u need to add according to the implementation in a specific language, add it as comments in the code, or create a sub-folder (Algo Name - language) and add the text file and the code files.  
 (Can also be done in case the implementation in a language requires more than one file.)
+- A more organized and structured pull request has gretaer chances to be approved. (Cuz maintainers are Lazy AF)
 
 
 ## Steps
 
 - Fork this repo (button on top)
 - Star this repo (button on top)
-- Clone on your local machine
+- Clone the repo on your local machine
 
 ```terminal
 git clone https://github.com/your-username/DS_Algorithms.git
@@ -58,10 +59,11 @@ git push origin master
 
 - Create a new pull request from your forked repository
 - And you are one step closer!   
-Check out your progress at https://hacktoberfest.digitalocean.com/profile
+**Check out your progress at https://hacktoberfest.digitalocean.com/profile**
 
-## Links to help you out- 
+## Links to help you out
 
+In case you find the steps given above as vague and unclear, feel free to look up these amazing articles  
 https://help.github.com/en/articles/adding-a-file-to-a-repository-using-the-command-line
 https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
 
@@ -71,7 +73,7 @@ https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on
 - Avoid overwriting other people's contributions, adding spaces and tabs or making any other type of invalid pull requests.   
  (They will be marked invalid and won't be counted in your HacktoberFest goals.)
  ( PS- If you find any such requests, please report to me.)
-
+- If you have any other doubts, feel free to discuss in the issue.
 
 Idea for some algorithms  :
 
