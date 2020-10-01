@@ -1,6 +1,6 @@
 # Calculate Maximum Height of Tree
 
-This algorithm calculates maximum height of the tree in the recursive manner based on the input tree defined in the main function of the code file. The implementation of the algorithm is in the C++ language. 
+This algorithm calculates the maximum height of the tree in a recursive manner based on the input tree defined in the main function of the code file. The implementation of the algorithm is in the C++ language. 
 
 ## Algorithm
 
