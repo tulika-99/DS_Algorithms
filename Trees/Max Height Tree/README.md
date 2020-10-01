@@ -24,6 +24,6 @@ In the above diagram,
 
 The maximum height in terms of the nodes is **4** in the above tree.
 
-To run the above code you need to follow follwing steps
-1. `g++ maxHeightC++.cpp -o maxHeight`
-2. `./maxHeight`
+To run the above code you need to follow follwing steps in the terminal (gcc must be installed)
+1. `> g++ maxHeightC++.cpp -o maxHeight`
+2. `> ./maxHeight`
