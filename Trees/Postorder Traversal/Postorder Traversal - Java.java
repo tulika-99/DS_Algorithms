@@ -1,6 +1,3 @@
-public class Postorder Traversal-Java
-{
-
 class Node 
 { 
 	int key; 
@@ -39,5 +36,3 @@ class Solution
  
 	} 
 } 
-
-}
