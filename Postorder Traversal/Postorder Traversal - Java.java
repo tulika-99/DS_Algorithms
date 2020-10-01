@@ -1,6 +1,3 @@
-public class PostorderTraversal
-{
-
 class Node 
 { 
 	int key; 
@@ -38,6 +35,4 @@ class Solution
         tree.printPostorder(); 
  
 	} 
-} 
-
 }
