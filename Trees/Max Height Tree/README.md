@@ -13,4 +13,4 @@ This algorithm calculates maximum height of the tree in the recursive manner bas
     3. Calculate maximum height among left and right subtree and add + 1 to it (count the current node)
     4. Return the calculated maximum height from Step 3.
 
-![](MaxHeight.png)
+![](maxHeight.png)
