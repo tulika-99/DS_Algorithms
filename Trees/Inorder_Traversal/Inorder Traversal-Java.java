@@ -31,7 +31,7 @@ class Solution
 
 	public static void main(String[] args) 
 	{ 
-     //creating a binary tree
+               //creating a binary tree
 		Node root = new Node(1)
 		root.left = new Node(2); 
 		root.right = new Node(3); 
