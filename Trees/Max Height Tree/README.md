@@ -13,4 +13,17 @@ This algorithm calculates maximum height of the tree in the recursive manner bas
     3. Calculate maximum height among left and right subtree and add + 1 to it (count the current node)
     4. Return the calculated maximum height from Step 3.
 
+
+
 ![](maxHeight.png)
+
+In the above diagram, 
+- values at each node defines number of a node 
+- text besides each node explaines maximum heights returned by left and right subtrees in the form of L and H characters respectively. 
+- Ret defines value returned by the node when recursive function called onto that node
+
+The maximum height in terms of the nodes is **4** in the above tree.
+
+To run the above code you need to follow follwing steps
+1. `g++ maxHeightC++.cpp -o maxHeight`
+2. `./maxHeight`
