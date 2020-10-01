@@ -24,7 +24,7 @@ int maxHeight(TreeNode* node)
         int rightH = maxHeight(node->right);  
       
         /* return the larger among left and right */
-        return (max(leftH, rightH));
+        return (max(leftH, rightH) + 1);
     }  
 }  
   
