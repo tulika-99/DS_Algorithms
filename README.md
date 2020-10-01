@@ -12,7 +12,7 @@ All you need to do is just add any sorting algorithm of your choice in any langu
 - Inside each folder there maybe subfolders for the specific Algorithms.
 - Each Algorithm folder contains        
 
- 1.  A Text file or a readme.md file which contains the Theory/ Explanation of the Algorithm
+ 1.  A Text file or an MD file which contains the Theory/ Explanation of the Algorithm
  2. and Several other files containing the code for the same, for different languages.   
 These files MUST BE NAMED in the format Algorithm Name - language. ( Eg: Binary Search - C++ )  
 
@@ -70,7 +70,8 @@ git push origin master
 
 In case you find the steps given above as vague and unclear, feel free to look up these amazing articles  
 https://help.github.com/en/articles/adding-a-file-to-a-repository-using-the-command-line
-https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
+https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github  
+https://medium.com/@saumya.ranjan/how-to-write-a-readme-md-file-markdown-file-20cb7cbcd6f  
 
 
 ## Note
