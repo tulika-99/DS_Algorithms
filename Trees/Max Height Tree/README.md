@@ -18,9 +18,9 @@ This algorithm calculates maximum height of the tree in the recursive manner bas
 ![](maxHeight.png)
 
 In the above diagram, 
-- values at each node defines number of a node 
-- text besides each node explaines maximum heights returned by left and right subtrees in the form of L and H characters respectively. 
-- Ret defines value returned by the node when recursive function called onto that node
+- Values at each node defines node number
+- Text besides each node explaines maximum heights returned by left and right subtrees in the form of **L** and **H** characters respectively. 
+- **Ret** defines value returned by the node when recursive function called onto that node
 
 The maximum height in terms of the nodes is **4** in the above tree.
 
