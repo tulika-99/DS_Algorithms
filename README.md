@@ -77,9 +77,9 @@ https://medium.com/@saumya.ranjan/how-to-write-a-readme-md-file-markdown-file-20
 ## Note
 
 - Avoid overwriting other people's contributions, adding spaces and tabs or making any other type of invalid pull requests.   
- (They will be marked invalid and won't be counted in your HacktoberFest goals.)
- 
- ( PS- If you find any such requests, please report to me.)
+ (They will be marked invalid and won't be counted in your HacktoberFest goals.) ( PS- If you find any such requests, please report to me.)
+- **No Sorting Algorithms please** 
+We already have a repo for that from last year : https://github.com/tulika-99/sorting-algorithms
 - If you have any other doubts, feel free to discuss in the issue.
 
 Idea for some algorithms  :
