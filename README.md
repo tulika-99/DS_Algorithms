@@ -10,9 +10,10 @@ All you need to do is just add any sorting algorithm of your choice in any langu
 
 - The Repository contains folders with names of Data Structures the Algorithms are based on, or the Name of the Algorithms if its valid for multiple data Structures.
 - Inside each folder there maybe subfolders for the specific Algorithms.
-- Each Algorithm folder contains 
--- A Text file or a readme.md file which contains the Theory/ Explanation of the Algorithm
--- and Several other files containing the code for the same, for different languages.   
+- Each Algorithm folder contains        
+
+ 1.  A Text file or a readme.md file which contains the Theory/ Explanation of the Algorithm
+ 2. and Several other files containing the code for the same, for different languages.   
 These files MUST BE NAMED in the format Algorithm Name - language. ( Eg: Binary Search - C++ )  
 
 Example:   
@@ -86,3 +87,5 @@ Idea for some algorithms  :
 - Graph Algos
 - Tree Algos
 - Bit Manipulation
+- Stacks
+- Strings
