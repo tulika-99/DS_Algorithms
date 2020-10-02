@@ -16,7 +16,7 @@ This algorithm calculates the maximum height of the tree in a recursive manner b
 
 
 Example Tree used
-
+```
          1
         / \
        2   3
@@ -24,6 +24,7 @@ Example Tree used
      4   5
     /
    6
+```
 
 In the above diagram, 
 - Values at each node defines node number
