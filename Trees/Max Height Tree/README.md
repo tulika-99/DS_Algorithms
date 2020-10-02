@@ -15,7 +15,15 @@ This algorithm calculates the maximum height of the tree in a recursive manner b
 
 
 
-![](maxHeight.png)
+Example Tree used
+
+         1
+        / \
+       2   3
+      / \ 
+     4   5
+    /
+   6
 
 In the above diagram, 
 - Values at each node defines node number
