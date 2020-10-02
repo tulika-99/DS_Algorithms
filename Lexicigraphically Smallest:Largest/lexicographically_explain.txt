@@ -1,0 +1,10 @@
+The term lexicographically means Dictionary format, i.e 
+Given a string here "shaonakundu" in groups of size 3(k=3), we have to find the smallest and largest or greatest substring.
+Initially from the beginning the first k letters are chosen as both min and max lexicographically.
+Then a for loop is implemented to iterate over entire string for size of k and compare by removing one letter from the beginning and adding (k+1)th letter to form new substring.
+
+After running this python code we get: ('aku', 'und') as the smallest and largest substring lexicographically.
+
+Note: one can take user input for both string(s) and k so that one can experiment with different examples. Here I have taken particular string.
+
+Author - Shaona Kundu
