@@ -58,7 +58,7 @@ git clone https://github.com/your-username/DS_Algorithms.git
 
 ```terminal
 git add .
-git commit -m 'Added algorithm-name'
+git commit -m "Added <algorithm-name> in <language>"
 git push origin master
 ```
 
