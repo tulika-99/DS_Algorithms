@@ -1,14 +1,22 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+ * Graph input/output
+ * Input : first line the number of nodes in graph - n
+           second line number of edges in graph - m
+           next m lines contain 2 spaced integers u and v denoting edge between u and v
+
+ * Output : Displays the adjacency list representation of graph
+            prints the topological sort order of the graph
+ */
+
 void init_graph(int a, vector<int> b[], bool c);
 void display_graph(int a, vector<int> b[]);
-
 
 /* Topological ordering is ordering in which u appears v if u has higher
  * priority than the v. Such kind of ordering helps in solving many real life
  * problem such as job scheduling.
- *  
  */
 
 /* Assuming that the given graph is DAG, we can simply apply DFS to obtain the 

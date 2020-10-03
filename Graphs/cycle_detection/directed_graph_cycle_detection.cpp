@@ -1,6 +1,17 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/* 
+ * Graph: Input/Ouput 
+ *
+ * Input : first line the number of nodes in graph - n
+           second line number of edges in graph - m
+           next m lines contain 2 spaced integers u and v denoting edge between u and v
+
+ * Output : Displays the adjacency list representation of graph
+            prints if the graph is cyclic or not.
+ */
+
 void init_graph(int a, vector<int> b[], bool c);
 void display_graph(int a, vector<int> b[]);
 
@@ -14,7 +25,6 @@ void display_graph(int a, vector<int> b[]);
  * exits edges u -> v such that node v in the recursion stack of the DFS.
  *
  */
-
 
 // recursive function to detect the cycle
 bool detect_cycle_recursive(vector<int> adj_list[],
