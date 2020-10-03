@@ -1,3 +1,10 @@
+//An edge in an undirected connected graph is a bridge iff removing it disconnects the graph.The algorithm described here is based on depth first search and has O(N+M) complexity, where N is the number of vertices and M is the number of edges in the graph.
+/*The implementation needs to distinguish three cases: when we go down the edge in DFS tree, 
+when we find a back edge to an ancestor of the vertex and when we return to a parent of the vertex. These are the cases:
+visited[to]=false - the edge is part of DFS tree;
+visited[to]=true && to≠parent - the edge is back edge to one of the ancestors;
+to=parent - the edge leads back to parent in DFS tree.*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int vis[1001];
