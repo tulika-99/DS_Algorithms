@@ -1,8 +1,8 @@
 # Majority element algorithm
 Majority means more than half. 50% is not majority but 50.00...01% is.
 ### Finds out if there is a majority element in the list.
-##### First line: enter the length of the list.
-##### Second line: enter the list elements with space in bw.
+##### First term: enter the length of the list, say 'n'.
+##### Next 'n' terms: enter the list elements with space in bw.
 
 #### sample input #1:
 5
