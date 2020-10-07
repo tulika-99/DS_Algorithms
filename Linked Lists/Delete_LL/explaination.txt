@@ -1,0 +1,6 @@
+Algorithm For C/C++: Iterate through the linked list and delete all the nodes one by one. Main point here is not to access next of the current pointer if current pointer is deleted.
+
+Time Complexity: O(n)
+Auxiliary Space: O(1)
+
+
