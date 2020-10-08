@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Graphs/BFS-Traversal"/>
+	<classpathentry kind="src" path="Searching/Exponential Search"/>
+	<classpathentry kind="src" path="Searching/Linear Search"/>
+	<classpathentry excluding="Diameter of Binary Tree/|LevelOrderTraversal/" kind="src" path="Trees"/>
+	<classpathentry kind="src" path="Trees/Diameter of Binary Tree"/>
+	<classpathentry kind="src" path="Trees/LevelOrderTraversal"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
