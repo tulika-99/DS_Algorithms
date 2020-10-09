@@ -1,0 +1,7 @@
+Iterative Solution
+
+1) Initialize a node pointer, current = head.
+2) Do following while current is not NULL
+    a) current->key is equal to the key being searched return true.
+    b) current = current->next
+3) Return false 
