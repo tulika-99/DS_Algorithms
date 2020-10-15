@@ -11,7 +11,7 @@ public class Search {
 
     }
 
-    //Binary Search function returns location of number in array or -1 if not found
+    // Binary Search function returns location of number in array or -1 if not found
     public int binarySearch(int[] arr, int num) {
         int left = 0, right = arr.length - 1;
         int mid = 0;
