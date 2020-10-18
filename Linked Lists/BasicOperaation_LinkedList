@@ -1,0 +1,36 @@
+import java.io.*;
+import java.util.*;
+
+public class basic_Input_Output {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int n = sc.nextInt();
+
+        List  numbers = new LinkedList ();
+        for (int i =0; i<n; i++) {
+            numbers.add(sc.nextInt());
+        }
+
+        int quiery = sc.nextInt();
+        for(int i =0; i<quiery; i++){
+            System.out.println("Enter the String");
+            String s = sc.next();
+            if(s.equals("Insert")){
+                numbers.add(sc.nextInt(),sc.nextInt());
+            }
+            else if (s.equals("Delete")){
+                numbers.remove(sc.nextInt());
+            }
+
+        }
+
+        for (Object item : numbers){
+            System.out.print(item + " ");
+        }
+
+
+
+    }
+}
