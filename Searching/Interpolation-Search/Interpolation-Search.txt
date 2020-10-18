@@ -1,0 +1,22 @@
+Interpolation Search
+====================
+
+Interpolation Search is an improvement over Binary Search. Interpolation search may go to different
+locations according to the value of the key we are searching. For example, if the value of the key
+is near to the last element, Interpolation Search Algorithm is likely to start search toward the end side.
+
+To find the position that we have to search, it uses the following formula:
+
+pos = st + [ (x – array[st])*(end – st) / (array[end] – array[st]) ]
+
+array[] : Array where elements need to be searched
+x       : Element to be searched
+st      : Starting index in array[]
+end     : Ending index in array[]
+
+
+Complexities
+============
+Time Complexity  : O(log2(log2 n)) for the average case, and O(n) for the worst case (when items are
+                   distributed exponentially)
+Space Complexity : O(1)
