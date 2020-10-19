@@ -1,0 +1,23 @@
+It is a very famous puzzle that can be solved using the idea of storing results 
+i.e. memoisation in dynamic programming(here).
+The idea is to minimize the number of attempts in worst case to find the 
+threshold floor i.e. the kth floor from where the egg breaks when we drop from it.
+Eg. If we have only 1 egg, we will use it wisely and start dropping it from the
+ground most floor and then go up slowly.
+
+Let us suppose we have a building of height f for this problem , then k can go
+maximum to the height of the building so we run  loop till f.
+We hit the base case when the height of the building is 0 or 1, i.e f then we will
+return 1 i.e. we have to drop it from here itself.
+Another base case is when we are left with one egg, then on worst case we have to drop 
+from every floor so we return f.
+Then, we have two choices in our recursion call stacks, solve(e,f) can give
+solve(e,f-k) and solve(e-1,k-1).
+The first  case solve(e,f-k) resembles when the egg do not break on dropping from
+kth floor so we go to (f-k)th floor.Note, that as the egg do not break the count of e 
+remains same in this function call.
+The second case solve(e-1,k-1) resembles when the egg breaks on dropping from kth 
+floor so we from (k-1) floors left and reduce the count of egg by 1.
+
+Further, we use memoisationfor storing the worst cases and minimum number of attempts
+in repetitive function calls
