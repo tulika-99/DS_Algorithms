@@ -1,0 +1,13 @@
+Bit manipulation 
+
+1>. counting the number of the set bits in the binary representations : 
+   in binary representation 0 are called -non set bit
+   1- set bits
+   to count the set bit we take bitwise with 1 and with the 0th bit and every time make a right shift to the number untill it become zero
+   if 0th bit is 1 then on bitwise  and will give 1 
+   Time Complexity: since the number of iteration is atmost number of bits(32 or 64) there for the time complexity is O(1)
+
+2>.Power of 2:
+    a number is power of two when number of set bit is 1 
+    time Complexity : O(1) as just counting the number of set Bits
+
