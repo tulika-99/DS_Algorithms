@@ -14,7 +14,7 @@ All you need to do is just add any sorting algorithm of your choice in any langu
 
  1.  A Text file or an MD file which contains the Theory/ Explanation of the Algorithm
  2. and Several other files containing the code for the same, for different languages.   
-These files MUST BE NAMED in the format Algorithm Name - language. ( Eg: Binary Search - C++ )  
+These files MUST BE NAMED in the format **Algorithm Name - language**. ( Eg: Binary Search - C++ )  
 
 Example:   
 Trees -> Inorder Traversal -> InorderTraversal- C++, Inorder Traversal-Python   
