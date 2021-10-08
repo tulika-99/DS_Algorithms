@@ -84,7 +84,7 @@ We already have a repo for that from last year : https://github.com/tulika-99/so
 
 Idea for some algorithms  :
 
-- Searching Algorithms
+- Searching Algorithms ( Interpolation Search)
 - Graph Algos ( Bellman Ford ,Topological sort, BFS,DFS,Dijkstra, Min spanning tree algos) 
 - Tree Algos 
 - Stacks ( inorder and post order expressions)
