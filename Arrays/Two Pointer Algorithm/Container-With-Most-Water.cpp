@@ -1,5 +1,11 @@
 // C++ code for Max
 // Container-with-most-water
+// Complexity Analysis: 
+
+// Time Complexity: O(n). 
+// As only one traversal of the array is required, so time complexity is O(n).
+// Space Complexity: O(1). 
+// No extra space is required, so space complexity is constant.
 
 #include<iostream>
 using namespace std;
