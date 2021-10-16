@@ -1,0 +1,12 @@
+Description: Given an array of schedules, which schedule has a start(s) and an end(f) value. And we want the maximum of compatible schedules, that is, their period don't overlap, exemple:
+    schedules = [
+        {s: 2; f: 5},
+        {s: 1; f: 3},
+        {s: 4; f: 6},
+        {s: 5; f: 7},
+    ]
+    In this case, schedules[0] overlaps schedules[1] and [2], and is compatible only with [3].
+
+Solution: the greedy way to solve this is, by each step, choose the one that end's first and exclude the ones which overlap it.
+
+Time complexity: O( n*log(n) )
