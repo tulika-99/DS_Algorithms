@@ -39,7 +39,8 @@ You can either add
 - Add this file inside the folder with the name of the algorithm you have implemented.
 - If you have some specific details u need to add according to the implementation in a specific language, add it as comments in the code, or create a sub-folder (Algo Name - language) and add the text file and the code files.  
 (Can also be done in case the implementation in a language requires more than one file.)
-- A more organized and structured pull request has gretaer chances to be approved. (Cuz maintainers are Lazy AF)
+- It is a good practice to always add comments in your code explaining the steps. (I would still prefer if you add a file explianing the algorithm)
+- A more organized and structured pull request has greater chances to be approved. (Cuz maintainers are Lazy AF)
 
 
 ## Steps
