@@ -3,12 +3,12 @@
 A collection of different types of algorithms used for various different Data Structures, in different languages.
 This repository is open to all. 
 To help you out with your Hacktoberfest goals!!  
-All you need to do is just add any sorting algorithm of your choice in any language you like with only the condition that it hasn't already been added.
+All you need to do is just add any sorting algorithm of your choice in any languages you like with only the condition that it hasn't already been added.
 
 
 ## Structure of the Repository
 
-- The Repository contains folders with names of Data Structures the Algorithms are based on, or the Name of the Algorithms if its valid for multiple data Structures.
+- The Repository contains folders with names of Data Structures the Algorithms are based on, or the Name of the Algorithms if its valid for multiples data Structures.
 - Inside each folder there maybe subfolders for the specific Algorithms.
 - Each Algorithm folder contains        
 
