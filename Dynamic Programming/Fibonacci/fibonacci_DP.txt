@@ -1,0 +1,11 @@
+The recursive fibonacci is very inefficient, since it's a double recursion. But with dynamic programming we can solve this by saving the already calculated numbers into an array.
+
+fibonacci(n):
+    arr = create an empty array
+    arr[0] = 0
+    arr[1] = 1
+    for i = 2 while i <= n do:
+        arr[i] = arr[i-1] + arr[i-2]
+    return arr[n]
+
+Time complexity is O(n)
