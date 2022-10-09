@@ -1,0 +1,89 @@
+/*
+    Problem Statement :
+        - Given an array of integers Arr of size N and a number K.
+          Return the maximum sum of a subarray of size K.
+
+    Input:
+        N = 4, K = 2
+        Arr = [100, 200, 300, 400]
+    Output:
+        700
+    Explanation:
+        Arr3  + Arr4 =700,
+        which is maximum.
+
+    Concept :
+
+    To solve this type of problem where you are given an array and you need to maximize or
+    minimize something in an subarray of k size.
+    We will maintain a window of size k with the help of two pointer, where 'j-i+1' will be the
+    size of window.
+    When the size of window reaches k, then we will check whether the current sum is maximum or not.
+
+    While moveing to the next window, we will remove the eliminate ith element from the window and then
+    we can safely move on.
+
+    Sliding window comes with a solution having better time complixity then traditional brute force approach.
+
+*/
+
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution
+{
+public:
+    long maximumSumSubarray(int K, vector<int> &Arr, int N)
+    {
+
+        // code here
+        long long i = 0, j = 0, sum = 0;
+        long long max_ans = 0;
+
+        if (N < K)
+            return -1;
+
+        while (j < N)
+        {
+            // adding the recent element to the sum
+            sum = sum + Arr[j];
+
+            if (j - i + 1 < K)
+            {
+                // if the window has not hit the size then increment the j
+                j++;
+            }
+            else if (j - i + 1 == K)
+            {
+                max_ans = max(max_ans, sum);
+                sum = sum - Arr[i]; // removing the last element from the window
+
+                i++; // sliding the  window
+                j++;
+            }
+        }
+        return max_ans;
+    }
+};
+
+int main()
+{
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int N, K;
+        cin >> N >> K;
+        ;
+        vector<int> Arr;
+        for (int i = 0; i < N; ++i)
+        {
+            int x;
+            cin >> x;
+            Arr.push_back(x);
+        }
+        Solution ob;
+        cout << ob.maximumSumSubarray(K, Arr, N) << endl;
+    }
+    return 0;
+}
