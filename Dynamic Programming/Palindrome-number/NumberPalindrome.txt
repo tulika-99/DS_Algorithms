@@ -1,0 +1,18 @@
+
+- Assuming our x is 125
+- First create a copy of the number parameter as we leave the original untouched; tmpNum = 125;
+- initialize a variable called reversedNum and make it 0
+- Now While our copy of number parameter(tmpNum) is greater than zero i.e while 125 is greater than zero
+- we want to get the last number of tmpNum and that's done by
+multiplying reversedNum by 10 and add the remainder of tmpNum modulus 10; i.e reversedNum * 10 +(tmpNum % 10);
+
+% in javascript returns the remainder;
+since reversedNum is 0, 0 * 10 + (125 % 10) which gives us 5;
+now reversedNum = 5
+
+-Then we reduce our tmpNum since we are in a while loop,we ensure we keep reducing our tmpNum so that the while loop condition is no longer true; That is achieved by
+- dividing our tmpNum by 10 and truncating it using Math.trunc so that it returns NO remainder. Which is tmpNum = Math.trunc(tmpNum / 10); 125 / 10 = 12.5, Math.trunc(12.5) = 12; Now our tmpNum is 12 and reversedNum is 5;
+
+- Then we go to the while loop again if tmpNum(12) is greater than zero;
+we repeat the whole process above till tmpNum is now 0;
+-Then we compare if x our original number to reversedNum; x === reversedNum;
