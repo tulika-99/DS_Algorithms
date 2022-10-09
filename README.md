@@ -37,9 +37,9 @@ You can either add
 - Go inside the  folder with the specific Algorithm Name. If not present then create a new folder with the name of the algorithm and add your files in it.
 - Create a .txt file with the Algorithm Theory/Explanation or a solution file which contains the code for the Algorithm, named acc to the language used to implement it. ( Eg: Inorder Traversal-C++ )
 - Add this file inside the folder with the name of the algorithm you have implemented.
-- If you have some specific details u need to add according to the implementation in a specific language, add it as comments in the code, or create a sub-folder (Algo Name - language) and add the text file and the code files.  
+- If you have some specific details you need to add according to the implementation in a specific language, add it as comments in the code, or create a sub-folder (Algo Name - language) and add the text file and the code files.  
 (Can also be done in case the implementation in a language requires more than one file.)
-- It is a good practice to always add comments in your code explaining the steps. (I would still prefer if you add a file explianing the algorithm)
+- It is a good practice to always add comments in your code explaining the steps. (I would still prefer if you add a file explaining the algorithm)
 - A more organized and structured pull request has greater chances to be approved. (Cuz maintainers are Lazy AF)
 
 
