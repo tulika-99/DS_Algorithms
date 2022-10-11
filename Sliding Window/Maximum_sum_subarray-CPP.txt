@@ -20,10 +20,10 @@
     size of window.
     When the size of window reaches k, then we will check whether the current sum is maximum or not.
 
-    While moveing to the next window, we will remove the eliminate ith element from the window and then
+    While moving to the next window, we will discard i-th element from the window and then
     we can safely move on.
 
-    Sliding window comes with a solution having better time complixity then traditional brute force approach.
+    Sliding window comes with a solution having better time complexity then traditional brute force approach.
 
 */
 
